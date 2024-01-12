@@ -46,3 +46,40 @@
   height: 25px;
   margin: 10px;
 }
+.cardContainer{
+  display: flex;
+ /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+.itemCard{
+  display: flex;
+  flex-direction: column;
+  /* height: 500px; */
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+  
+}
+.img{
+  display: flex;
+}
+.title{
+  display: flex;
+  
+}
+.category{
+  display: flex;
+  border:none;
+  border-radius: 8px;
+  width: 120px;
+  padding: 5px;
+  background-color: rgb(20, 146, 236);
+  color: white;
+  position: absolute;
+  z-index: 5;
+}
+
+#footer{
+  height: 300px;
+  background-color: black;
+}
