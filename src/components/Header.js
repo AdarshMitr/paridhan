@@ -16,7 +16,7 @@ const Header = () => {
        
 
        <div className='login'>
-        <span className='name'>Adarsh</span>
+        <span className='name'>username</span>
         <img src={user} alt='user'className='user'/>
         <span className='name'>cart</span>
         <img src={cart} alt='cart' className='cart' /> 
